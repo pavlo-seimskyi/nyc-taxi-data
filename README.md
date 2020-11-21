@@ -10,7 +10,7 @@ Case study: A new ride sharing company X is looking to start up a rival service 
 ## Summary:
 - 90% of the revenues come from the rides that take place inside the New York City. The second most popular destination is JFK airport. 
 - The hours with the highest demand are from 6 p.m. to 10 p.m.
-
+![image](https://drive.google.com/file/d/14uM1vsbScmKhGsTtATASyYzvZmdKxkkf/view?usp=sharing)
 - Negotiated fares turn out to bring most revenues by mile travelled. However, they happen very seldom and are hardly controllable. The most efficient solution would be to concentrate on offering rides in the city, they bring $5.85 per mile on average, while trips to the airport bring only $3.70 per mile travelled.
 - 64% of all the revenues came from rides with only 1 passenger. A car that takes up to 3 people would cover 90% of the demand.
 - **IDEA:** Rides with only one passenger and inside the city (therefore, probably without lots of baggage) are most common. It might be a good idea to offer rides with **motorbikes**: While taking only 1 passenger max., they consume less fuel and are more flexible in the busy city-setting.
