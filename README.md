@@ -10,17 +10,26 @@ Case study: A new ride sharing company X is looking to start up a rival service 
 ## Summary:
 - 90% of the revenues come from the rides that take place inside the New York City. The second most popular destination is JFK airport. 
 - The hours with the highest demand are from 6 p.m. to 10 p.m.
-![image](https://drive.google.com/uc?export=view&id=1apxHM2NjQEgOSoJQBpA6Yv9RUpoXxEOV)
+
+![image](https://drive.google.com/uc?export=view&id=1GIJxQy_0Y8PmJFqAA_P2UEYLfBFVN0lk)
+
 - Negotiated fares turn out to bring most revenues by mile travelled. However, they happen very seldom and are hardly controllable. The most efficient solution would be to concentrate on offering rides in the city, they bring $5.85 per mile on average, while trips to the airport bring only $3.70 per mile travelled.
 - 64% of all the revenues came from rides with only 1 passenger. A car that takes up to 3 people would cover 90% of the demand.
+
+![image](https://drive.google.com/uc?export=view&id=14uM1vsbScmKhGsTtATASyYzvZmdKxkkf)
+
 - **IDEA:** Rides with only one passenger and inside the city (therefore, probably without lots of baggage) are most common. It might be a good idea to offer rides with **motorbikes**: While taking only 1 passenger max., they consume less fuel and are more flexible in the busy city-setting.
 
 ## Random Forest model for tip suggestions:
 - Root Mean Squared Error was chosen as the metric for measuring model performance.
 - RMSE of 0.31 on validation data was achieved. 
 - Most important features that predict the value of the tip are: the total amount spent and payment method.
+
+![image](https://drive.google.com/uc?export=view&id=1B3nbKnvkDqFMXAhZ_zBUuIEwtPImtVQ-)
 - The hour of the day as well as the day of the week resulted as not important for predicting the tip amount. (My hypothesis was that people would pay more on, say, Friday than on Monday because they would be more cheerful because of the weekend. It was disproven)
 
 ## Further model improvement and deployment
 - More data should be gathered on the payment method. The model predicts high tips when people pay by card simply because data on tips paid in cash was not captured. The suggestion to improve the model would be for the company X to gather that data by, for example, motivating drivers to report on their tips in cash saying that this data will help themselves to earn more tips in the future thanks to better model performance.
 - `treeinterpreter` and `waterfall_charts` are two great tools to use in production. Thanks to relative simplicity of the Random Forest algorithm, it can be explained pretty easily, allowing both the customer and the company to see how exactly the model made its prediction, showing how each feature contributed to the predicted value.
+
+![image](https://drive.google.com/uc?export=view&id=1apxHM2NjQEgOSoJQBpA6Yv9RUpoXxEOV)
