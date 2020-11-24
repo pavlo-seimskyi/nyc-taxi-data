@@ -32,4 +32,4 @@ Case study: A new ride sharing company X is looking to start up a rival service 
 - More data should be gathered on the payment method. The model predicts high tips when people pay by card simply because data on tips paid in cash was not captured. The suggestion to improve the model would be for the company X to gather that data by, for example, motivating drivers to report on their tips in cash saying that this data will help themselves to earn more tips in the future thanks to better model performance.
 - `treeinterpreter` and `waterfall_charts` are two great tools to use in production. Thanks to relative simplicity of the Random Forest algorithm, it can be explained pretty easily, allowing both the customer and the company to see how exactly the model made its prediction, showing how each feature contributed to the predicted value.
 
-![image](https://drive.google.com/uc?export=view&id=1apxHM2NjQEgOSoJQBpA6Yv9RUpoXxEOV) 
+![image](https://drive.google.com/uc?export=view&id=1apxHM2NjQEgOSoJQBpA6Yv9RUpoXxEOV)
